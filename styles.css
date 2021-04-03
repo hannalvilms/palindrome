@@ -1,0 +1,94 @@
+body {
+    background-color: #F2F2F2;
+}
+.container {
+    margin-top: 50px;
+}
+.input {
+    text-align: center;
+}
+.input h1, .input form {
+    margin-bottom: 30px;
+}
+.input input, .input button {
+    box-shadow: 7px 7px 25px -3px rgba(181,181,181,1);
+    -webkit-box-shadow: 7px 7px 25px -3px rgba(181,181,181,1);
+    -moz-box-shadow: 7px 7px 25px -3px rgba(181,181,181,1);
+}
+.input input {
+    border: none;
+    border-radius: 30px;
+    height: 30px;
+    outline: none;
+    padding-left: 15px;
+    width: 250px;
+}
+.input button {
+    background-color: #18800e;
+    color: #F2F2F2;
+    border-radius: 30px;
+    border: 0;
+    height: 30px;
+    outline: none;
+    width: 100px;
+}
+.palindrome-table {
+    background-color: #F2F2F2;
+    border-radius: 26px;
+    box-shadow:  5px 5px 15px #a4a4a4,
+    -5px -5px 15px #ffffff;
+    display: inline-flex;
+    height: auto;
+    margin: 30px auto;
+    padding: 20px;
+    width: 90%;
+}
+.heading {
+    text-align: center;
+}
+.sequence, .inputWord, .expected {
+    padding: 0;
+}
+.expected h6:first-child {
+    border-radius: 0 10px 0 0;
+}
+.expected h6:last-child {
+    border-radius: 0 0 10px 0;
+}
+.sequence h6:first-child {
+    border-radius: 10px 0 0 0;
+}
+.sequence h6:last-child {
+    border-radius: 0 0 0 10px;
+}
+.word {
+    background-color: #FFF;
+    border-bottom: 1px solid #F2F2F2;
+    border-left: 1px solid #F2F2F2;
+    margin: 0;
+    padding: 5px;
+}
+.true, .false {
+    border-bottom: 1px solid #F2F2F2;
+    color: #F2F2F2;
+    margin: 0;
+    padding: 5px;
+}
+.true {
+    background-color: #18800e;
+}
+.false {
+    background-color: #BE3333;
+}
+
+@media (max-width: 768px) {
+    .heading {
+        font-size: 10px;
+    }
+    input, button {
+        margin-top: 15px;
+    }
+    .word, .expected {
+        font-size: 13px;
+    }
+}
